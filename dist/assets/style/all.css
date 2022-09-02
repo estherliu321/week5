@@ -1,19 +1,53 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+body {
+  font-family: 'Lato', sans-serif;
+  vertical-align: middle; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+.main {
+  margin-left: 296px;
+  padding: 32px; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+.side {
+  min-width: 296px;
+  min-height: 100vh;
+  position: fixed;
+  padding: 32px 80px 32px 32px; }
+  .side img {
+    margin-bottom: 32px; }
+  .side span {
+    vertical-align: middle;
+    margin-right: 16px; }
+  .side li {
+    margin-bottom: 24px; }
+
+.nav-link a:hover {
+  color: #198754 !important; }
+
+.user .username p {
+  margin-bottom: 0px; }
+
+.user .photo {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/andychen.jpeg);
+  background-size: cover; }
+
+.list-group h5 {
+  font-size: 12px; }
+
+.Emily {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/emilywang.jpeg);
+  background-size: cover; }
+
+.card-body small {
+  font-size: 12px;
+  line-height: 1.2; }
+
+.andy {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/andychen.jpeg);
+  background-size: cover; }
 
 /*# sourceMappingURL=all.css.map */

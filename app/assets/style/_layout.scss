@@ -1,0 +1,52 @@
+body{
+    font-family: 'Lato', sans-serif;
+vertical-align: middle;
+}
+.main{
+    margin-left: 296px;
+    padding: $unispace*4;
+  }
+// .mr-3{
+//     margin-right: $spacer  !important;
+// }
+.side{
+    min-width: 296px;
+    min-height: 100vh;
+    position: fixed;
+    padding: $unispace*4 $unispace*10 $unispace*4 $unispace*4;
+img{
+    margin-bottom: $unispace*4;
+}
+    span{
+        vertical-align: middle;
+        margin-right:$unispace*2 ;
+    }
+    li{
+        margin-bottom: $unispace*3;
+
+    }
+
+}
+.nav-link{
+    a:hover {
+        color:#198754 !important;
+    }
+}
+.user{
+    .username{
+        p{
+    margin-bottom: 0px;
+        }
+    
+    }
+    .photo{
+        width: 40px;
+    height:40px ;
+    background-image: url(../images/andychen.jpeg);
+    background-size: cover;
+    }
+}
+
+
+
+
